@@ -4,7 +4,12 @@ on: [push]
 
 jobs: 
   demo: 
-    runs-on: macos-12
+    runs-on: ubuntu-latest
+    steps:
+      - name: a basic echo
+        run: echo Hello!
+   demo2: 
+    runs-on: macos-latest
     steps:
       - name: a basic echo
         run: echo Hello!
