@@ -6,10 +6,10 @@ jobs:
   demo: 
     runs-on: ubuntu-latest
     steps:
-      - name: a basic echo
+      - name: a basic echo 1st job
         run: echo Hello!
   demo2: 
     runs-on: macos-latest
     steps:
-      - name: a basic echo
-        run: echo Hello!
+      - name: a basic echo 2nd job
+        run: echo Hello you!
