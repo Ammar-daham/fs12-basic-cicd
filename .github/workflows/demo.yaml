@@ -9,7 +9,7 @@ jobs:
       - name: a basic echo
         run: echo Hello!
   demo2: 
-    runs-on: macos-12
+    runs-on: macos-latest
     steps:
       - name: a basic echo
         run: echo Hello!
