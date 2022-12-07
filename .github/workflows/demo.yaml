@@ -8,8 +8,8 @@ jobs:
     steps:
       - name: a basic echo
         run: echo Hello!
-   demo2: 
-    runs-on: macos-latest
+  demo2: 
+    runs-on: macos-12
     steps:
       - name: a basic echo
         run: echo Hello!
